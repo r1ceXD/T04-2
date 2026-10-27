@@ -8,6 +8,10 @@ body {
     background: #ffe97f;
 }
 
+h1{
+    margin-left: 170px;
+}
+
 .container {
     margin: 0 auto;
 }
