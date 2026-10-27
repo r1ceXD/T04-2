@@ -14,7 +14,7 @@
             <a href="index.html" data-logo>
                 <img class="logo" src="images/logo_tv.png" alt="Logo">
             </a>
-            <h1>Appliance Energy Consumption</h1>
+            <!-- <h1>Appliance Energy Consumption</h1> -->
             <div class="nav-links">
                 <a class="active" href="index.html" data-page="home">Home</a>
                 <a href="televisions.html" data-page="televisions">Televisions</a>
@@ -23,21 +23,13 @@
         </nav>
     </header>
 
-    <!-- Content of the Page -->
-    <main class="page-content container">
-        <section>
-            <h1>In Australia, appliances such as televisions have energy rating labels.</h1>
-            <h3>The labels include information such as star ratings and energy consumption of the appliance.</h3>
-            <h3>This information allow consumers to know the energy efficiency of each TV sold in Australia.</h3>
+    <h1>Appliance Energy Consumption</h1>
+    <div id="content"></div>
+    <!-- Give the SVG a size so shapes can be seen -->
+    <svg width="300" height="150"></svg>
+    <!-- Load D3 first, then your D3 code file -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="energy-d3.js"></script>
 
-        </section>
-    </main>
-
-    <!-- Footer -->
-    <footer class="site-footer">
-        <div class="container">
-            <p>Aloysius Khang Xi FUNG, 2026 (This website was created with the assistance of GenAI)</p>
-        </div>
-    </footer>
 </body>
 </html>
